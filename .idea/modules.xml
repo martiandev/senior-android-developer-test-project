@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Pokemon.iml" filepath="$PROJECT_DIR$/.idea/modules/Pokemon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Pokemon.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Pokemon.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Pokemon.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Pokemon.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Pokemon.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Pokemon.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Pokemon.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Pokemon.app.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/zoogle_analytics/Pokemon.zoogle_analytics.iml" filepath="$PROJECT_DIR$/.idea/modules/zoogle_analytics/Pokemon.zoogle_analytics.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/zoogle_analytics/Pokemon.zoogle_analytics.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/zoogle_analytics/Pokemon.zoogle_analytics.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/zoogle_analytics/Pokemon.zoogle_analytics.main.iml" filepath="$PROJECT_DIR$/.idea/modules/zoogle_analytics/Pokemon.zoogle_analytics.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/zoogle_analytics/Pokemon.zoogle_analytics.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/zoogle_analytics/Pokemon.zoogle_analytics.unitTest.iml" />
+    </modules>
+  </component>
+</project>

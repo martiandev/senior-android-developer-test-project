@@ -1,0 +1,58 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+buildscript {
+
+    ext{
+        //4. Added dependency versions in top level gradle file for incase we put modules we can make sure the same version of 3rd party libraries are used across the app    ext{
+        config =[
+                compileSdk: 33,
+                minSdk: 21,
+                targetSdk: 33,
+        ]
+        architecture = [
+                lifecycle   : '2.5.1',
+                hilt    : '2.42',
+                hiltCompiler : '1.0.0-alpha02',
+                nav_version : '2.5.3'
+        ]
+        foundation = [
+                coreKtx:'1.9.0',
+                appCompat:'1.5.1',
+                coreKtx:'1.9.0',
+                activityKtx:'1.6.1',
+                fragmentKtx:'1.5.4',
+                jUnit:'4.13.2',
+                androidJUnit:'1.1.4',
+                androidEspresso:'3.5.0',
+                coil:'2.1.0',
+                viewModels:'1.1.0',
+                truth : '1.1.3',
+                mockk : '1.12.3',
+
+
+        ]
+        ui = [
+                material:'1.7.0',
+                constraintLayout: '2.1.4',
+        ]
+        versions = [
+                okhttp : '4.9.3',
+                retrofit : '2.9.0',
+                moshi : '1.13.0',
+        ]
+    }
+
+    dependencies{
+        //5. Added hilt for easier dependency injection (Gold standard for Android Kotlin)
+        classpath "com.google.dagger:hilt-android-gradle-plugin:$architecture.hilt"
+    }
+}
+
+
+
+
+
+plugins {
+    id 'com.android.application' version '7.3.1' apply false
+    id 'com.android.library' version '7.3.1' apply false
+    id 'org.jetbrains.kotlin.android' version '1.7.20' apply false
+}
